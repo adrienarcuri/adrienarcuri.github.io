@@ -1,0 +1,23 @@
+<header>
+  <div class="container">
+  <div class="row" style="text-align: center;">
+    <img src="{{base.url}}/assets/img/adrienarcuri.png" height="220" width="220" alt="Photo" >
+    <h1>{{site.title}}</h1>
+    <span>🇫🇷 (native) </span> -
+    <span>🇬🇧(pro) </span> -
+    <span>🇪🇸 (basic) </span>
+    <p>{{site.description}}</p>
+    <p></p>
+  </div>
+  <div class="row">
+    <div class="twelve columns" style='text-align: center;'>
+      <!--MENU-->
+      {% for item in site.pages %}
+        {% if item.title %}
+        <a class="button button-primary{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</header>
