@@ -32,7 +32,7 @@ youtube_username: UC1xbNhia_Zk6alojX-ecswA
 
 # Build settings
 markdown: kramdown
-theme: jekyll-skeleton
+remote_theme: jekyll-skeleton
 plugins:
   - jekyll-feed
 
