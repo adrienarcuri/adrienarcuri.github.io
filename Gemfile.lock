@@ -248,7 +248,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 202)
+  github-pages (~> 202)
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.11)
   jekyll-skeleton
