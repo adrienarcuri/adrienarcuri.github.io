@@ -20,8 +20,9 @@
 
 title: Adrien ARCURI
 email:
+privacy_policy_url:
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello ! I am Adrien software engineer and I.T consultant currently working on Blockchain at <a href='https://aktan.fr' target='_blank'>Aktan</a>.
+  Hello ! I am Adrien software engineer and I.T consultant currently working on Blockchain at <a href='https://aktan.fr' target='_blank' rel='noreferrer'>Aktan</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "adrien.arcuri@github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

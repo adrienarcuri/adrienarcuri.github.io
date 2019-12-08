@@ -10,7 +10,11 @@
           {{ site.title }}
         {% endif %}
       </li>
-      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+
+      <li>
+      {% if site.email %}
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      {% endif %}
       {% if site.privacy_policy_url %}
         <li>
           <a href="{{ site.privacy_policy_url }}">Privacy Policy</a>
