@@ -37,6 +37,10 @@ remote_theme: awochna/jekyll-skeleton
 plugins:
   - jekyll-feed
 
+# Sass option
+sass:
+  style: compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
