@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Recognition of users movement in public transport"
+date:   2015-05-01
+categories: school project
+author: 'Adrien Arcuri'
+tags: [telecom, internship]
+place: CZECH TECHNICAL UNIVERSITY in Prague
+duration: 3 months
+---
+
+**Place :** {{page.place}}
+
+**Duration :** {{page.duration}}
+
+<div class="row text-center">
+<img src="/assets/img/cvut_bus_map.png" class='text-center responsive'>
+</div>
+
+## Objectives
+
+The subject of this internship is to design an algorithm for the recognition of users movement in public transport using telecommunication data.
+
+This project was made with [Rajae SLIMANI](https://linkedin.com/in/rajae-slimani-670a9690) and tutored by [Robert BESTAK](https://www.researchgate.net/profile/Robert_Bestak).
+
+The internship focused mainly on three missions:
+- Analysis of mobile network data
+- Definition of algorithm and interpretation
+- Implementation of a computer program running the algorithm
+
+## Environment
+- Matlab
+- QGIS
+- Linux server

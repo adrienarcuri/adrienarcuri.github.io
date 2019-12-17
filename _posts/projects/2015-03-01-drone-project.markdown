@@ -5,12 +5,17 @@ date:   2015-03-01
 categories: school project
 author: 'Adrien Arcuri'
 tags: [school, drone]
+place: IMT Mines Alès
+duration: 2 months
 ---
 
+**Place :** {{page.place}}
+
+**Duration :** {{page.duration}}
 
 
-<div class="row text-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FKwe7MCSMmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row video-container ">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FKwe7MCSMmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="responsive"></iframe>
 </div>
 
 ---
