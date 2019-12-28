@@ -4,9 +4,9 @@ title:  "Lean Management Mission"
 date:   2014-06-01
 categories: internship
 author: 'Adrien Arcuri'
-tags: [school, lean, internship]
+tags: [lean management, internship]
 place: AC SP Metrologie
-duration: 1 month
+duration: 2 month
 ---
 
 **Place :** {{page.place}}
