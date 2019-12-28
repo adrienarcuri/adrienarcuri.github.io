@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Lean Management Mission"
+date:   2014-06-01
+categories: internship
+author: 'Adrien Arcuri'
+tags: [school, lean, internship]
+place: AC SP Metrologie
+duration: 1 month
+---
+
+**Place :** {{page.place}}
+
+**Duration :** {{page.duration}}
+
+<div class="row text-center">
+<img src="/assets/img/VSM_photo.jpg" class='responsive'>
+</div>
+<br>
+
+## Objectives
+
+We achieved a 2-months lean management mission for [ACSP Metrologie](https://www.acsp-metrologie.fr) with my colleagues Lalia DIALLO, Loris MATTEI and tutored by Marie RIMLINGER.
+
+The scope was the following :
+- delivering value and optimizing work processes by applying lean management methods like VSM (Value Stream Mapping), BPMN
+- catch and write specifications of the new information system needs
