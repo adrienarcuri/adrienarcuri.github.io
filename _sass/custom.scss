@@ -1,8 +1,8 @@
 
 
 header {
-  padding-top: 150px;
   padding-bottom: 50px;
+  padding-top: 140px;
 }
 
 footer {
@@ -15,6 +15,21 @@ h1 {
 
 a {
   color: #007fa7;
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  background-color: white;
+  z-index: 99;
+  transition: top 0.5s;
+  overflow: hidden;
+  border-bottom-right-radius: 15px;
+  background: white;
+  width: 100%;
+  border: solid 0.001em;
+  border-color: white;
+  border-bottom-color: black;
 }
 
 .row {

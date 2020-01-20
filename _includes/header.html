@@ -1,27 +1,21 @@
 <header>
-  <div class="container">
-  <div class="row" style="text-align: center;">
-    <picture>
-      <source type="image/webp" srcset="{{base.url}}/assets/img/adrienarcuri.webp">
-      <source type="image/jpeg" srcset="{{base.url}}/assets/img/adrienarcuri.png">
-      <img src="adrienarcuri.png" height="220" width="220" alt="Photo" >
-    </picture>
-    <h1>{{site.title}}</h1>
-    <span>🇫🇷 (native) </span> -
-    <span>🇬🇧(pro) </span> -
-    <span>🇪🇸 (basic) </span>
-    <p>{{site.description}}</p>
-    <p></p>
-  </div>
-  <div class="row">
-    <div class="twelve columns" style='text-align: center;'>
-      <!--MENU-->
-      {% for item in site.pages %}
-        {% if item.title %}
-        <a class="button button-primary{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+  <!--MENU-->
+  <div class= navbar>
+    <div class="container" >
+      <nav class="row u-full-width">
+        <div class="row">
+          <div class="u-pull-left ">
+            <h4 class="">Adrien ARCURI</h4>
+          </div>
+          <div class="u-pull-right">
+            {% for item in site.pages %}
+              {% if item.title %}
+                <a class="button button-primary {% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </nav>
     </div>
   </div>
-</div>
 </header>
