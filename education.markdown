@@ -2,6 +2,7 @@
 layout: page
 title: Education
 permalink: /education/
+order: 3
 ---
 
 ### 2013 --> 2016
