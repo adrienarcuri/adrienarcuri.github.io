@@ -2,7 +2,7 @@
 layout: post
 title:  "Lean Management Mission"
 date:   2014-06-01
-categories: internship
+categories: projects
 author: 'Adrien Arcuri'
 tags: [lean management, internship]
 place: AC SP Metrologie

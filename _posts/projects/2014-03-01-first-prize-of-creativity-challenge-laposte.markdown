@@ -2,7 +2,7 @@
 layout: post
 title:  "First Prize of creativity challenge by Mines Ales and La Poste"
 date:   2014-06-01
-categories: challenge
+categories: projects
 author: 'Adrien Arcuri'
 tags: [creativity, challenge]
 place: Mines Alès

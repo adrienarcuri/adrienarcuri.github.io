@@ -2,7 +2,7 @@
 layout: post
 title:  "Brain Interface Machine for post-stroke rehabilitation"
 date:   2016-02-25
-categories: school project
+categories: projects
 author: 'Adrien Arcuri'
 tags: [school, machine learning, health]
 place: Mines Alès

@@ -2,7 +2,7 @@
 layout: post
 title:  "Steering of a drone and computer assisted vision"
 date:   2015-03-01
-categories: school project
+categories: projects
 author: 'Adrien Arcuri'
 tags: [school, drone]
 place: IMT Mines Alès

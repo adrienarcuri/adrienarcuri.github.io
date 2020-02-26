@@ -2,7 +2,7 @@
 layout: post
 title:  "Recognition of users movement in public transport"
 date:   2015-05-01
-categories: school project
+categories: projects
 author: 'Adrien Arcuri'
 tags: [telecom, internship]
 place: CZECH TECHNICAL UNIVERSITY in Prague

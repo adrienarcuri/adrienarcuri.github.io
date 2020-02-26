@@ -2,7 +2,7 @@
 layout: post
 title:  "Finalization of a supervision system for solar power plants"
 date:   2014-12-01
-categories: school project
+categories: projects
 author: 'Adrien Arcuri'
 tags: [mission, energy]
 place: ERT ENERGY & SERVICE
