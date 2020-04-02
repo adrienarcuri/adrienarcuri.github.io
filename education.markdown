@@ -7,7 +7,7 @@ order: 3
 
 ### 2013 --> 2016
 
-I am graduated with a ***Master's Degree in Engineering and Management of Complex Systems (EMACS)*** - option ***Design and management of complex systems*** from [IMT Mines Alès](https://www.mines-ales.fr/) in 2016.
+I graduated with a ***Master's Degree in Engineering and Management of Complex Systems (EMACS)*** - option ***Design and management of complex systems*** from [IMT Mines Alès](https://www.mines-ales.fr/) in 2016.
 
 See list of courses :
 - [1st year program]({{ "/assets/pdf/program_1A_emacs_2016.pdf" | relative_url }}) - UE Digital Electronic
@@ -16,4 +16,4 @@ See list of courses :
 
 ### 2010 --> 2013
 
-I prepared competitive exams for Grandes Ecoles at [Classe Préparatoires aux Grandes Ecoles (CPGE)](https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles) Lycée Claude Fauriel in Saint-Etienne.
+Intensive program preparing for the national competitive exam for entry to engineering schools "Grandes Ecoles" at [Classe Préparatoires aux Grandes Ecoles (CPGE)](https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles) Lycée Claude Fauriel in Saint-Etienne.
