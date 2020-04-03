@@ -1,21 +1,28 @@
 <header>
   <!--MENU-->
-  <div class= navbar>
+  <div class="navbar">
     <div class="container" >
-      <nav class="row u-full-width">
-        <div class="row">
-          <div class="u-pull-left">
-            <h4><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h4>
+      <nav class="row">
+          <div class="">
+            <div class="u-pull-left hide-on-tablet-and-mobile">
+              <h5><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h5>
+            </div>
+            <div class="u-pull-left hide-on-desktop">
+              <h6><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h6>
+            </div>
           </div>
-          <div class="u-pull-right text-center">
+          <div class="">
+            <div class="u-pull-right">
+            <ul>
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for item in sorted_pages %}
               {% if item.title %}
-                <a class="button button-primary {% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+                <li><a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
               {% endif %}
             {% endfor %}
+            </ul>
+            </div>
           </div>
-        </div>
       </nav>
     </div>
   </div>

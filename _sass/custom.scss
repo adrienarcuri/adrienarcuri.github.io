@@ -1,4 +1,16 @@
 
+@media screen and (min-width: 768px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hide-on-tablet-and-mobile {
+    display: none !important;
+  }
+}
+
 
 header {
   padding-bottom: 50px;
@@ -17,12 +29,33 @@ a {
   color: #007fa7;
 }
 
+nav {
+	margin: 20px 0 0 0;
+
+}
+nav h6 {
+  margin-right: 30px;
+}
+nav ul li {
+	display: inline;
+	margin: 0 25px 0 0px;
+}
+
+nav ul li a {
+	text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+}
+
 .navbar {
   position: fixed;
   top:0;
   background-color: white;
   z-index: 99;
-  overflow: hidden;
+  //overflow: hidden;
   background: white;
   width: 100%;
   border: solid 0.001em;
