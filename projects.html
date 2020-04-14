@@ -5,21 +5,48 @@ permalink: /projects/
 order: 2
 ---
 
-    {% for post in site.posts %}
-    <div class="row">
-
-
-        <div class="six columns">
-        <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-      </div>
-      <div class="three columns">
-        | {% for tag in post.tags %}
-          {{ tag }} |
-        {% endfor %}
-      </div>
-      <div class="two columns">
-        {{post.date | date: "%Y %B" }}
-      </div>
+{% for post in site.posts %}
+<div class="row">
+  <div class="nine columns">
+    <h5>{{ post.title }}</h5>
+  </div>
+  <div class="three columns">
+    <div class="u-pull-right">
+      {{post.date | date: "%Y %B" }} ( {{post.duration}} )
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="three columns">
+    <div>
+      <img class="u-max-full-width" src="{{ post.img_path }}">
+    </div>
+  </div>
+  <div class="seven columns">
+    {{ post.description }}
+    <p>
+      <a href="{{ post.url }}">Learn more </a>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="two columns">
+    <div class="u-pull-left">
 
     </div>
-    {% endfor %}
+  </div>
+</div>
+
+
+
+
+
+<!-- <div>
+
+      <strong><a href="{{ post.url }}"></a></strong></h3></strong>
+  </div>
+  <div class="two columns">
+    {{post.date | date: "%Y %B" }}
+  </div> -->
+
+{% endfor %}
