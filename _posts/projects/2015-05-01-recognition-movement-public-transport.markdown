@@ -5,15 +5,11 @@ date:   2015-05-01
 categories: projects
 author: 'Adrien Arcuri'
 tags: [telecom, internship]
+img_path: /assets/img/cvut_bus_map.png
 place: CZECH TECHNICAL UNIVERSITY in Prague
 duration: 3 months
 ---
 
-<div class="row text-center">
-<img src="/assets/img/cvut_bus_map.png" class='text-center responsive'>
-</div>
-
-## Objectives
 
 The subject of this internship is to design an algorithm for the recognition of users movement in public transport using telecommunication data.
 

@@ -4,6 +4,9 @@ title: Projects
 permalink: /projects/
 order: 2
 ---
+<div class="row">
+  <p>Here are some examples of projects in which I participated professionally or voluntarily</p>
+</div>
 
 {% for post in site.posts %}
 <div class="row">
@@ -25,9 +28,9 @@ order: 2
   </div>
   {% endif %}
   <div class="seven columns">
-    {{ post.description }}
+    {{ post.excerpt }}
     <p>
-      <a href="{{ post.url }}">Learn more </a>
+      <a href="{{ post.url }}">Learn more</a>
     </p>
   </div>
 </div>

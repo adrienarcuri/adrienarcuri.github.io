@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Mon petit COVID - HackingCovid19"
-description: "MonPetitCovid proposes to raise awareness of epidemic health risks in schools, businesses and help the victims of covid19"
 date:   2020-04-10
 categories: projects
 author: 'Adrien Arcuri'

@@ -5,15 +5,10 @@ date:   2016-02-25
 categories: projects
 author: 'Adrien Arcuri'
 tags: [school, machine learning, health]
+img_path: /assets/img/EEGLAB.png
 place: Mines Alès
 duration: 2 months
 ---
-
-## Objectives
-
-<div class="row text-center">
-<img src="/assets/img/EEGLAB.png" class='text-center responsive'>
-</div>
 
 Brain Machine Interfaces (MCIs) allow the use of the brain signal for
 compensate for a lost function by giving paralyzed people the opportunity to

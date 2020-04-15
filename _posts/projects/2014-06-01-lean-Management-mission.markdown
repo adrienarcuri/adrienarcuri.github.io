@@ -5,16 +5,10 @@ date:   2014-06-01
 categories: projects
 author: 'Adrien Arcuri'
 tags: [lean management, internship]
+img_path: /assets/img/VSM_photo.jpg
 place: AC SP Metrologie
 duration: 2 month
 ---
-
-<div class="row text-center">
-<img src="/assets/img/VSM_photo.jpg" class='responsive'>
-</div>
-<br>
-
-## Objectives
 
 We achieved a 2-months lean management mission for [ACSP Metrologie](https://www.acsp-metrologie.fr) with my colleagues Lalia DIALLO, Loris MATTEI and tutored by Marie RIMLINGER.
 

@@ -5,14 +5,10 @@ date:   2014-06-01
 categories: projects
 author: 'Adrien Arcuri'
 tags: [creativity, challenge]
+img_path: /assets/img/laposte_first_prize.png
 place: Mines Alès
 duration: 1 month
 ---
-
-<div class="row text-center">
-<img src="/assets/img/laposte_first_prize.png" class='responsive'>
-</div>
-<br>
 
 [Mines Alès - CREATIVITY CHALLENGE](https://wwwmedias.mines-ales.fr/pages/apprenez-differemment) is a competition where a group of students take on a challenge from large companies. The best ideas are rewarded with prizes and valued in companies.
 
