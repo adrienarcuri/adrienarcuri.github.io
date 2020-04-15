@@ -2,8 +2,27 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_long_string }}</p>
+
+<div class="row">
+  <h1>{{ page.title }}</h1>
+</div>
+
+{% if page.img_path %}
+<div class="row">
+  <img class='u-max-full-width' src=" {{ page.img_path }} ">
+</div>
+{% endif %}
+
+<div class="row">
+  <div class="four columns">
+  </div>
+  <div class="four columns">
+  </div>
+  <div class="u-pull-right">
+    <p>{{page.date | date_to_long_string}} | {{page.duration}} | {{page.place}}</p>
+  </div>
+</div>
+
 
 
 {{ content }}
@@ -12,11 +31,11 @@ layout: default
 <h3>Related Posts</h3>
 <ul>
   {% for post in site.related_posts limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 {% endif %}
 
 {% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
+{% include disqus_comments.html %}
 {% endif %}

@@ -9,11 +9,6 @@ place: France
 duration: 2 months
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
-
 <div class="row text-center">
 <img src="/assets/img/hackathon_blockchain.png" class='text-center responsive'>
 </div>

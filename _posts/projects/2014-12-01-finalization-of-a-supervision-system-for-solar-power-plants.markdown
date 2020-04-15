@@ -9,11 +9,6 @@ place: ERT ENERGY & SERVICE
 duration: 1 month
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
-
 <div class="row text-center">
 <img src="/assets/img/mission_m2.jpg" class='responsive'>
 </div>

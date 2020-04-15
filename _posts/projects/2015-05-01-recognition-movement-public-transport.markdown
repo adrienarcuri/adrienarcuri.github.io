@@ -9,10 +9,6 @@ place: CZECH TECHNICAL UNIVERSITY in Prague
 duration: 3 months
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
 <div class="row text-center">
 <img src="/assets/img/cvut_bus_map.png" class='text-center responsive'>
 </div>

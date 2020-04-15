@@ -11,15 +11,11 @@ place: France
 duration: 3 days
 ---
 
-**Place :** {{page.place}}
+With Neda Lestarevic, we participated in the [HACKING COVID 19](https://hackingcovid19.fr/) hackathon whose goal is to find ideas and solutions to face the coronavirus crisis serenely. We created MonPetitCovid.
 
-**Duration :** {{page.duration}}
+[MonPetitCovid](https://monpetitcovid.weblium.site/) offers to make children and families aware of the behaviors to adopt in the event of a viral epidemic, to prepare companies to maintain their activity in the event of a health crisis and to help victims of COVID19 by providing them with financial support and assistance.
 
 
-<div class="row text-center">
-<img src="/assets/img/hackathon_blockchain.png" class='text-center responsive'>
-</div>
+🔗 WebSite : [https://monpetitcovid.weblium.site/](https://monpetitcovid.weblium.site/)
 
-In february 2017, we participated to the world IBM/Capgemini Blockchain Hackathon with a remote company team from Montpellier, Nantes and Marseille. The goal was to design and develop a Proof of Concept on the following subject "Payment Instruction" in bank sector using Hyperledger Fabric V0.6. It was a very great and challenging moment as project leader !
-
-You can visit our ["BlockBuster" team page](https://sites.google.com/view/blockbusters-hackathon).
+🔗 HackathonProject page : [https://hackcovid19.bemyapp.com/#/projects/5e9200fd6f7ec0001bb3e296](https://hackcovid19.bemyapp.com/#/projects/5e9200fd6f7ec0001bb3e296)

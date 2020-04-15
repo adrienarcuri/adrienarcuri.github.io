@@ -9,10 +9,6 @@ place: Mines Alès
 duration: 1 month
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
 <div class="row text-center">
 <img src="/assets/img/laposte_first_prize.png" class='responsive'>
 </div>

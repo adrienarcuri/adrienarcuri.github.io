@@ -9,10 +9,6 @@ place: Mines Alès
 duration: 2 months
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
 ## Objectives
 
 <div class="row text-center">

@@ -9,10 +9,6 @@ place: AC SP Metrologie
 duration: 2 month
 ---
 
-**Place :** {{page.place}}
-
-**Duration :** {{page.duration}}
-
 <div class="row text-center">
 <img src="/assets/img/VSM_photo.jpg" class='responsive'>
 </div>
