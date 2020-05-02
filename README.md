@@ -7,9 +7,17 @@ This website is generated with [Jekyll](https://jekyllrb.com/) and use [Skeleton
 
 Follow [Jekyll installation](https://jekyllrb.com/docs/installation/)
 
-# Run locally
+# Run
+
+## Locally
 
 ```bash
 bundle exec jekyll serve
 ## Now browse to http://localhost:4000
+```
+
+## Production
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
 ```
