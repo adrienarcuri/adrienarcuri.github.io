@@ -1,28 +1,32 @@
 <header>
   <!--MENU-->
   <div class="navbar">
-    <div class="container" >
+    <div class="container">
       <nav class="row">
-          <div class="">
-            <div class="u-pull-left hide-on-tablet-and-mobile">
-              <h5><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h5>
-            </div>
-            <div class="u-pull-left hide-on-desktop">
-              <h6><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h6>
-            </div>
+        <div class="">
+          <div class="u-pull-left hide-on-tablet-and-mobile">
+            <h5><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h5>
           </div>
-          <div class="">
-            <div class="u-pull-right">
+          <div class="u-pull-left hide-on-desktop">
+            <h6><a href="{{base.url}}/" style="color:black; text-decoration: none;">{{site.title}}</a></h6>
+          </div>
+        </div>
+        <div class="">
+          <div class="u-pull-right">
             <ul>
-            {% assign sorted_pages = site.pages | sort:"order" %}
-            {% for item in sorted_pages %}
+              {% assign sorted_pages = site.pages | sort:"order" %}
+              {% for item in sorted_pages %}
+              {% unless item.exclude %}
               {% if item.title %}
-                <li><a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a></li>
+              <li><a class="{% if page.url contains item.url %} active{% endif %}"
+                  href="{{ item.url }}">{{ item.title }}</a></li>
               {% endif %}
-            {% endfor %}
+              {% endunless %}
+              {% endfor %}
+
             </ul>
-            </div>
           </div>
+        </div>
       </nav>
     </div>
   </div>
