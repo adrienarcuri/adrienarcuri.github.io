@@ -12,6 +12,8 @@ Follow [Jekyll installation](https://jekyllrb.com/docs/installation/)
 ## Locally
 
 ```bash
+bundle install
+bundle update
 bundle exec jekyll serve
 ## Now browse to http://localhost:4000
 ```
