@@ -15,8 +15,7 @@ Ositrade is an online agriculture marketplace which allows traceability of goods
 
 <div class="text-center">
     <p>
-        <iframe class="u-max-full-width" width="560" height="315" src="https://www.youtube.com/embed/wGNCeDK01_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+        <iframe class="u-max-full-width" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5eDoVhJGb88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
 </div>
 
