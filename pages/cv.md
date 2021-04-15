@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CV
+title: 📃 CV
 permalink: /cv/
-order: 4
+order: 5
 ---
 
 You can see or download my CV in different languages :
