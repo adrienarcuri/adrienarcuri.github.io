@@ -18,11 +18,15 @@
               {% for item in sorted_pages %}
               {% unless item.exclude %}
               {% if item.title %}
-              <li><a class="{% if page.url contains item.url %} active{% endif %}"
-                  href="{{ item.url }}">{{ item.title }}</a></li>
+              <li>
+                <a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">
+                  {{ item.title}}
+                </a>
+              </li>
               {% endif %}
               {% endunless %}
               {% endfor %}
+              <li><a href='https://medium.com/@adrienarcuri' target="_blank">✏️ Blog</a></li>
 
             </ul>
           </div>
