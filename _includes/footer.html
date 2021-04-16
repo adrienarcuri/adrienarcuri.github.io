@@ -1,4 +1,36 @@
 <footer>
+
+  <div class="container">
+    <!-- See Also -->
+    <hr />
+    <div class="row">
+
+      <div class="twelve columns text-center">
+        <h2>See also </h2>
+      </div>
+
+    </div>
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for item in sorted_pages %}
+    {% unless item.exclude %}
+    {% if item.title %}
+    <div class="row">
+      <a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">
+        <h5>{{ item.title }}</h5>
+      </a>
+    </div>
+    {% endif %}
+    {% endunless %}
+    {% endfor %}
+
+
+    <div class="row">
+      <a href='https://medium.com/@adrienarcuri' target="_blank" rel="noreferrer">
+        <h5>✏️ Blog</h5>
+      </a>
+    </div>
+  </div>
+
   <hr>
 
   <div class="container">
@@ -121,9 +153,9 @@
             <span>
               <svg style="width: 16px; height: 16px; vertical-align: text-top;" xmlns="http://www.w3.org/2000/svg"
                 height="24" width="24" viewBox="0 0 24 24">
-                  <path id="path4"
-                    d="M0 1636c411.554-97.771 692.897-283.177 724-637 10.714-131.212 67.364-243.777 216-319 207.675-80.617 305.728-52.164 390-10 92.668 81.722 119.468 199.94 50 371.5-31.914 100.266-291.001 223.867-410 258.5-392.539 175.893-595.504 430.282-561 783H0z" />
-                  <ellipse id="ellipse6" ry="192" rx="196.5" cy="408" cx="1666.5" />
+                <path id="path4"
+                  d="M0 1636c411.554-97.771 692.897-283.177 724-637 10.714-131.212 67.364-243.777 216-319 207.675-80.617 305.728-52.164 390-10 92.668 81.722 119.468 199.94 50 371.5-31.914 100.266-291.001 223.867-410 258.5-392.539 175.893-595.504 430.282-561 783H0z" />
+                <ellipse id="ellipse6" ry="192" rx="196.5" cy="408" cx="1666.5" />
               </svg>
             </span>
             <span>CodinGame</span>

@@ -18,8 +18,8 @@ order: 1
       <img src="adrienarcuri.png" height="220" width="220" alt="Photo">
     </picture>
     <h1>Adrien ARCURI</h1>
-    <h5>Engineer-manager in IT</h5>
-    <h6>AI 🤖, Data Science 🧪, Blockchain 🔑◻️◻️, Mobile 📱</h6>
+    <h4>Engineer-manager in IT</h4>
+    <p><strong>AI 🤖, Data Science 🧪, Blockchain 🔑◻️◻️, Mobile 📱</strong></p>
     <hr />
 
   </div>
@@ -30,7 +30,7 @@ order: 1
 <div class="row">
 
   <div class="twelve columns text-center">
-    <h4>👨‍🔬 Who I am </h4>
+    <h4>👨‍🔬 Who am I</h4>
     <p>
       I am a curious engineer-manager from France who wants to work on scientific issues that meet the emerging global
       challenges
@@ -118,14 +118,14 @@ order: 1
     <h5>📱 Mobile development + Web </h5>
   </div>
   <div class="one columns text-center">
-    <img src="assets/img/dart_logo.svg" alt="Dart logo" width="30">
+    <img src="assets/img/dart_logo.svg" alt="Dart logo" width="30" height="100%">
     <p>Dart</p>
   </div>
   <div class="one column  text-center">
     <h4>+</h4>
   </div>
   <div class="one column  text-center">
-    <img src="assets/img/flutter_logo.svg" alt="Flutter logo" width="30">
+    <img src="assets/img/flutter_logo.svg" alt="Flutter logo" width="30" height="100%">
     <p>Flutter</p>
   </div>
 
@@ -138,7 +138,7 @@ order: 1
     <h5>🧪 Data Science & AI</h5>
   </div>
   <div class="three columns text-center">
-    <img src="assets/img/python_logo.svg" alt="Dart logo" width="30">
+    <img src="assets/img/python_logo.svg" alt="Dart logo" width="30" height="100%">
     <p>Python</p>
   </div>
 
@@ -151,41 +151,7 @@ order: 1
     <h5>🔑◻️◻️ Blockchain</h5>
   </div>
   <div class="three columns text-center">
-    <img src="assets/img/golang_logo.svg" alt="Dart logo" width="30">
+    <img src="assets/img/golang_logo.svg" alt="Dart logo" width="30" height="100%">
     <p>Golang</p>
   </div>
-</div>
-<hr />
-
-<!-- See Also -->
-
-<div class="row">
-
-  <div class="twelve columns text-center">
-    <h2>See also </h2>
-  </div>
-
-</div>
-
-
-{% assign sorted_pages = site.pages | sort:"order" %}
-{% for item in sorted_pages %}
-{% unless item.exclude %}
-{% if item.title %}
-<div class="row">
-
-
-  <a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">
-    <h4>{{ item.title}}</h4>
-  </a>
-
-</div>
-{% endif %}
-{% endunless %}
-{% endfor %}
-
-<div class="row">
-  <a href='https://medium.com/@adrienarcuri' target="_blank">
-    <h4>✏️ Blog</h4>
-  </a>
 </div>
