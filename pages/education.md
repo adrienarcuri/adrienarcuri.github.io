@@ -21,8 +21,7 @@ Below you can see the courses I have completed each year.
 <a href="https://www.coursera.org/account/accomplishments/certificate/JA6EDX9RZ3KV" target="_blank" rel="noreferrer">IBM Cloud: Deploying Microservices with
 Kubernetes un cours en ligne authorized by IBM and offered through Coursera
 </a>
-<img src="/assets/img/certificate-ibm-cloud-deploying-microservices-with-kubernetes.png" class='u-max-full-width'>
-
+<img src="/assets/img/certificate-ibm-cloud-deploying-microservices.png" class='u-max-full-width'>
 <h2>2018</h2>
 
 <a href="https://courses.edx.org/certificates/bb2d4ef0c0d2441eb7c27d27aa762c40" target="_blank" rel="noreferrer">PH526x: Using Python for Research
