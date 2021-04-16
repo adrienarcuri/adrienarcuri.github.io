@@ -6,29 +6,33 @@
     <div class="row">
 
       <div class="twelve columns text-center">
-        <h2>See also </h2>
+        <h1>See also </h1>
       </div>
 
     </div>
-    {% assign sorted_pages = site.pages | sort:"order" %}
-    {% for item in sorted_pages %}
-    {% unless item.exclude %}
-    {% if item.title %}
     <div class="row">
-      <a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">
-        <h5>{{ item.title }}</h5>
-      </a>
-    </div>
-    {% endif %}
-    {% endunless %}
-    {% endfor %}
+
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for item in sorted_pages %}
+      {% unless item.exclude %}
+      {% if item.title %}
+      <div class="two columns">
+        <a class="{% if page.url contains item.url %} active{% endif %}" href="{{ item.url }}">
+          <p>{{ item.title }}</p>
+        </a>
+      </div>
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
 
 
-    <div class="row">
-      <a href='https://medium.com/@adrienarcuri' target="_blank" rel="noreferrer">
-        <h5>✏️ Blog</h5>
-      </a>
+      <div class="two columns">
+        <a href='https://medium.com/@adrienarcuri' target="_blank" rel="noreferrer">
+          <p>✏️ Blog</p>
+        </a>
+      </div>
     </div>
+
   </div>
 
   <hr>
