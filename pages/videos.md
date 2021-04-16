@@ -14,14 +14,14 @@ order: 3
 
 <h4 class="text-center">Presentation of my role as Blockchain Developer at Aktan - 2019</h4> 
 
-<div class="text-center u-max-full-width">
+<div class="text-center">
     <iframe class="u-max-full-width" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ytgaf93XQjs?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 
 <h4 class="text-center">Regional TV interview on entrepreneurship as Communication Manager at Emagine - 2014</h4> 
 
-<div class="text-center u-max-full-width">
+<div class="text-center">
     <p>
         <iframe class="u-max-full-width" width="560" height="315" src="https://www.youtube-nocookie.com/embed/MhcxFcqEkg0?start=613" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
