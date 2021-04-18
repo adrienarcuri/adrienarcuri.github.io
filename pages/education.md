@@ -5,7 +5,7 @@ permalink: /education/
 order: 4
 ---
 
-👨‍🎓 We never stop learning, that's why I tried to learn every day !
+👨‍🎓 We never stop learning, that's why I try to learn every day !
 
 Below you can see the courses I have completed each year.
 
