@@ -4,42 +4,41 @@ title: 🚀 Projects
 permalink: /projects/
 order: 2
 ---
-<div class="row">
+
+<section>
   <p>Here are some examples of projects in which I participated professionally or voluntarily</p>
-</div>
+</section>
 
 {% for post in site.posts %}
-<div class="row">
-  <div class="nine columns">
-    <h5>{{ post.title }}</h5>
-  </div>
-  <div class="three columns">
-    <div class="u-pull-right">
-      {{post.date | date: "%Y %B" }} ( {{post.duration}} )
+<!--POST-->
+<article>
+  <div class="row">
+    <div class="nine columns">
+      <h5>{{ post.title }}</h5>
+    </div>
+    <div class="three columns">
+      <div class="u-pull-right">
+        {{post.date | date: "%Y %B" }} ( {{post.duration}} )
+      </div>
     </div>
   </div>
-</div>
-<div class="row">
-  {% if post.img_path %}
-  <div class="three columns">
-    <a href="{{ post.url }}">
-      <img class="u-max-full-width" src="{{ post.img_path }}" alt="">
-    </a>
-  </div>
-  {% endif %}
-  <div class="seven columns">
-    {{ post.excerpt }}
-    <p>
-      <a href="{{ post.url }}">Learn more</a>
-    </p>
-  </div>
-</div>
-<div class="row">
-  <div class="two columns">
-    <div class="u-pull-left">
-
+  <div class="row">
+    {% if post.img_path %}
+    <div class="five columns">
+      <a href="{{ post.url }}">
+        <img class="u-max-full-width" src="{{ post.img_path }}" alt="{{ post.title }}">
+      </a>
+    </div>
+    {% endif %}
+    <div class="seven columns">
+      {{ post.excerpt }}
+      <p>
+        <a href="{{ post.url }}">Learn more</a>
+      </p>
     </div>
   </div>
-</div>
+  <hr />
+</article>
+<!---->
 
 {% endfor %}
